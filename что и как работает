@@ -1,0 +1,7 @@
+Установи зависимости:
+bash
+pip install fastapi sqlalchemy python-jose passlib uvicorn
+Запусти сервер:
+bash
+uvicorn app.main:app --reload
+Открой http://127.0.0.1:8000/docs – Swagger UI для тестирования API.
